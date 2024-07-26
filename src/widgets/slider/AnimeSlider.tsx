@@ -37,7 +37,7 @@ const AnimeSlider = () => {
         <BsChevronCompactRight onClick={nextSlide} size={30} />
       </div>
       <div className="flex top-4 justify-center py-2">
-        {animeSlides.map((slide, slideIndex) => (
+        {animeSlides.map((_, slideIndex) => (
           <div
             key={slideIndex}
             onClick={() => goToSlide(slideIndex)}

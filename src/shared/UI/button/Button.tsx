@@ -14,7 +14,7 @@ const Button: FC<Props> = ({ variant, children, ...props }: Props) => {
     <button
       className={`${
         variant === "contained" ? containedVariant : outlinedVariant
-      } active:opacity-75 duration-500 text-white text-[18px] rounded-md px-6 `}
+      } rounded-md px-6 text-[18px] text-white duration-500 active:opacity-75`}
       {...props}
     >
       {children}

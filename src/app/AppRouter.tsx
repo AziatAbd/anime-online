@@ -15,8 +15,8 @@ const AppRouter = () => {
         {
           path: "news",
           element: (
-            <div className="flex flex-col items-center justify-center h-80 mb-10 p-20 rounded-xl bg-[#060607] w-fit mx-auto">
-              <h1 className="text-4xl font-bold mb-4">В разработке</h1>
+            <div className="mx-auto mb-10 flex h-80 w-fit flex-col items-center justify-center rounded-xl bg-[#060607] p-20">
+              <h1 className="mb-4 text-4xl font-bold">В разработке</h1>
               <p className="text-xl">
                 Мы работаем над этим разделом. Пожалуйста, зайдите позже!
               </p>
@@ -26,8 +26,8 @@ const AppRouter = () => {
         {
           path: "categories",
           element: (
-            <div className="flex flex-col items-center justify-center h-80 mb-10 p-20 rounded-xl bg-[#060607] w-fit mx-auto">
-              <h1 className="text-4xl font-bold mb-4">В разработке</h1>
+            <div className="mx-auto mb-10 flex h-80 w-fit flex-col items-center justify-center rounded-xl bg-[#060607] p-20">
+              <h1 className="mb-4 text-4xl font-bold">В разработке</h1>
               <p className="text-xl">
                 Мы работаем над этим разделом. Пожалуйста, зайдите позже!
               </p>

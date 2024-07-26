@@ -1,6 +1,6 @@
 const Highlights = () => {
   return (
-    <div className="bg-[#060607] mx-auto w-fit p-10 rounded-3xl mb-28">
+    <div className="bg-[#060607] mx-auto w-fit p-10 rounded-3xl">
       <h1 className="text-4xl mb-6" id="highlight">
         Рекомендуем
       </h1>
